@@ -10,9 +10,9 @@ else:
     while i < n and i <= 10:
         res = i * n
         print(n, "x", i, '=', res )
-        i += 1
         if n == i:
             res2 = n ** 2
-            print(n, '^ 2 =', res2) 
+            print(n, '^ 2 =', res2)
+        i += 1
 
     
