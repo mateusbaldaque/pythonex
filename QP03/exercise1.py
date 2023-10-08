@@ -11,8 +11,8 @@ else:
         res = i * n
         print(n, "x", i, '=', res )
         i += 1
-    
+        if n == i:
+            res2 = n ** 2
+            print(n, '^ 2 =', res2) 
 
-if 0 < n <= 10:
-    res2 = n ** 2
-    print(n, '^ 2 =', res2) 
+    
